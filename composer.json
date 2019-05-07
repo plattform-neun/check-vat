@@ -1,0 +1,24 @@
+{
+    "name": "plattformneun/check-vat",
+    "description": "Validate European VAT Numbers By Existence",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobias Thaden",
+            "email": "tt@convoyinteractive.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Neun\\Vat\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neun\\Vat\\Tests\\": "tests"
+        }
+    }
+}
